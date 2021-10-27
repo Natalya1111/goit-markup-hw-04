@@ -588,6 +588,7 @@ footer {
   margin-bottom: 9px;
 }
 .join {
+  margin-top: 12px;
   color: var(--second-text-color);
   font-weight: 700px;
   font-size: 14px;
