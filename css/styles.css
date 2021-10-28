@@ -376,6 +376,7 @@ img {
 
 .content {
   padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
   background-color: var(--second-text-color);
   border-radius: 0px 0px 4px 4px;
@@ -384,7 +385,7 @@ img {
 .social-list {
   display: flex;
   margin-top: 16px;
-  padding-bottom: 30px;
+
   padding-left: 32px;
   padding-right: 32px;
   justify-content: center;
@@ -556,6 +557,7 @@ footer {
 
 .footer.container {
   display: flex;
+  align-items: baseline;
 }
 
 /* * Address */
@@ -588,9 +590,8 @@ footer {
   margin-bottom: 9px;
 }
 .join {
-  margin-top: 12px;
   color: var(--second-text-color);
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
